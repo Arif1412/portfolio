@@ -1,0 +1,11 @@
+{
+  "title": "Sleek Personal Portfolio Website",
+  "description": "Showcases a professional’s projects, skills, and experience in a polished portfolio, helping visitors explore their work and get in touch.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
