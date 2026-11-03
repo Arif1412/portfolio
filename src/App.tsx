@@ -612,7 +612,7 @@ export default function App() {
           >
             GitHub
           </a>
-          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
+          <a href="https://www.linkedin.com/in/md-golam-morshed-227183277/" target="_blank" rel="noreferrer">
             LinkedIn
           </a>
           <a href="#home">Back to top ↑</a>
@@ -688,22 +688,22 @@ export default function App() {
               </section>
             </div>
             <div className="modal-actions flex items-center justify-end gap-3 pt-4 border-t border-zinc-800">
-  <button 
-    onClick={() => setResumeOpen(false)}
-    className="px-4 py-2 rounded-lg text-sm font-medium text-zinc-400 hover:text-white hover:bg-zinc-800/60 transition-all duration-200"
-  >
-    Close
-  </button>
-  <a 
-    href="/resume.pdf" 
-    target="_blank" 
-    rel="noopener noreferrer" 
-    className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[#4ade80] hover:bg-[#22c55e] text-black text-sm font-semibold shadow-sm transition-all duration-200 hover:shadow-md hover:shadow-emerald-500/10 active:scale-95"
-  >
-    <Icon name="download" size={16} /> 
-    <span>View / Download PDF</span>
-  </a>
-</div>
+            <button 
+              onClick={() => setResumeOpen(false)}
+              className="px-4 py-2 rounded-lg text-sm font-medium text-zinc-400 hover:text-white hover:bg-zinc-800/60 transition-all duration-200"
+            >
+            Close
+            </button>
+            <a 
+              href="/resume.pdf" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[#4ade80] hover:bg-[#22c55e] text-black text-sm font-semibold shadow-sm transition-all duration-200 hover:shadow-md hover:shadow-emerald-500/10 active:scale-95"
+            >
+            <Icon name="download" size={16} /> 
+            <span>View / Download PDF</span>
+            </a>
+          </div>
           </div>
         </div>
       )}
