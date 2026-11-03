@@ -695,7 +695,7 @@ export default function App() {
             Close
             </button>
             <a
-  href="/resume.pdf"
+  href="/md-golam-morshed-resume.pdf"
   download="Md_Golam_Morshed_Resume.pdf"
   target="_blank"
   rel="noopener noreferrer"
