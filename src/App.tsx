@@ -291,7 +291,7 @@ export default function App() {
                 <Icon name="github" />
               </a>
               <a
-                href="https://www.linkedin.com/"
+                href="https://www.linkedin.com/in/md-golam-morshed-227183277/"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="LinkedIn"
@@ -694,15 +694,16 @@ export default function App() {
             >
             Close
             </button>
-            <a 
-              href="/resume.pdf" 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[#4ade80] hover:bg-[#22c55e] text-black text-sm font-semibold shadow-sm transition-all duration-200 hover:shadow-md hover:shadow-emerald-500/10 active:scale-95"
-            >
-            <Icon name="download" size={16} /> 
-            <span>View / Download PDF</span>
-            </a>
+            <a
+  href="/resume.pdf"
+  download="Md_Golam_Morshed_Resume.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[#4ade80] hover:bg-[#22c55e] text-black text-sm"
+>
+  <Icon name="download" size={16} />
+  <span>View / Download PDF</span>
+</a>
           </div>
           </div>
         </div>
